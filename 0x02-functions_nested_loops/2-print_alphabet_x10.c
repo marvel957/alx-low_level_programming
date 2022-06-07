@@ -7,7 +7,7 @@
  * Return: will alwats be 0.
  */
 void print_alphabet_x10(void)
-i{
+{
 	int i;
 
 	i = 0;
