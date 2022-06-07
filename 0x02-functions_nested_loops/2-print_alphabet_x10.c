@@ -2,12 +2,12 @@
 
 
 /**
- * main - This fuction print alphabet 10 times.
+ * print_alphabet_x10 - This fuction print alphabet 10 times.
  *
  * Return: will alwats be 0.
  */
-int main(void)
-{
+void print_alphabet_x10(void)
+i{
 	int i;
 
 	i = 0;
