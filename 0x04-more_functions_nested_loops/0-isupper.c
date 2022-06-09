@@ -9,13 +9,13 @@ int _isupper(int c)
 {
 	int result;
 
-	if (c < 96)
+	if ((c >= 'A') && (c <= 'Z'))
 	{
 		result = 1;
 	}
 	else
 	{
-		result = 1;
+		result = 0;
 	}
 
 	return (result);
