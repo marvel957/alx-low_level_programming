@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * more_numbers- function mame
+ * more_numbers - a function print ns
  *
- * Rwturn: 0 or 1
+ * Return: 0-14 x10
  */
 void more_numbers(void)
 {
-	int i, j;
+	int i, ro;
 
-	for (j = 0; j < 10; j++)
+	for (ro = 0; ro < 10; ro++)
 	{
 		for (i = 0; i <= 14; i++)
 		{
@@ -22,4 +22,3 @@ void more_numbers(void)
 		_putchar('\n');
 	}
 }
-
