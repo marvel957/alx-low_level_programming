@@ -8,5 +8,8 @@ include "main.h"
  */
 int mul(int a, int b)
 {
-	return (a * b);
+	int result;
+
+	reault = a * b;
+	return (result);
 }
