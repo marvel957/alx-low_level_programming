@@ -4,6 +4,7 @@
  * @dest: param 1
  * @n: param 2
  * @n: max bytes
+ * @src: string from source
  * Return: returns a pointer
  */
 char *_strncpy(char *dest, char *src, int n)
