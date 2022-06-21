@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * _strstr - func name
  * @haystack: param 1
