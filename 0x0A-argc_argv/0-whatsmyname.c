@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
  * main - func name
- * @argc:param 1
- * @argv: param 2
- * Return:  0.
+ * @argc:param one
+ * @argv: param two
+ * Return:  value
  */
-int main(int argc, char __attribute__((__unused__)) *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	printf("%d\n", argc - 1);
+	printf("%s\n", argv[0]);
 	return (0);
 }
