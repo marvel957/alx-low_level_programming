@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - fumc name
- * @argc: arg counter
- * @argv: argument variable
- * Return:a value
+ * main - multiplies
+ * @argc: number of command
+ * @argv: array that contains the
+ * Return: 0 - value
  */
 int main(int argc, char *argv[])
 {
