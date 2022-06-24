@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main - func name
- * @argc:param one
- * @argv: param two
- * Return:  value
+ * main - prints its name, followed by a new line.
+ * @argc: number of command line arguments.
+ * @argv: array that contains the program command line
+ * Return: 0 - success.
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
